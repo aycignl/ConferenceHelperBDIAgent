@@ -2,7 +2,7 @@
 We propose Pareto Optimal Movie Negotiator (POMN), an agent which performs the Movie Negotiation Game (MNG) for not just two, but also three users. Unless the given MNG is a zero-sum game, POMN always returns a Pareto efficient deal. We implement POMN in Perl since visualization of negotiation graphs is convenient in Perl. Alternating offers is a known protocol for bilateral negotiations. In this study, we propose two generalizations of alternating offers protocol, Gonul Protocol (GP) and Yavuz Protocol (YP) so that these protocols support three negotiators.
 
 ### HOW TO RUN?
-1) ./main.pl <preferenceTable.csv> <protocol>
+1) ./main.pl <preferenceTable.csv> <protocol> </br>
 e.g., ./main.pl example1.csv GP 
 
 # Movie Selector
