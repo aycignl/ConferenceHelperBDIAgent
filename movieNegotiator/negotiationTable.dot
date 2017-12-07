@@ -1,0 +1,11 @@
+digraph NegotiatingTable {
+	rankdir=LR
+	928->707 [style=invis]
+	707->546 [style=invis]
+	546->928 [style=invis]
+	546->928 [label="o(429)"]
+	707->928 [style=dashed,label="o(456)"]
+	928->546 [style=dashed,label="o(8)"]
+	928->707 [style=dashed,label="o(8)"]
+	928->928 [label="BREAK"]
+}
